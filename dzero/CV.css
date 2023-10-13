@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.body {
+    font-family: sans-serif;
+}
+.contenu{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: #171b1a solid;
+   
+}
+.header {
+    margin-bottom: 10px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.les-deux-colonnes{
+    display: flex;
+}
+.deuxieme-colonne{
+    margin-left: -13%;
+}
+.premiere-colonne{
+    margin-left: 8%;
+}
+#image{
+    height: 25%;  
+}
+:root{
+    --success:#00b894;
+    --progress:rgb(236, 218, 218);
+}
+.progressbar-wrapper{
+    background-color:#1a8cbd;
+    color: rgb(156, 65, 65);
+    border-radius: 15px;
+    width: 35%;
+}
+.progressbar{
+    background-color: var(--progress);
+    color: rgb(3, 1, 1);
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.progressbar[title="downloading"]{
+    background-color: var(--progress);
+}
+.anglais{
+    width: 100%;
+}
+.italian{
+    width: 50%;
+}
+.espagnol{
+    width:50%;
+}
+.texte{
+   padding-bottom: 2%;
+   padding-left: 5%;
+}
+.nom{
+    margin-top: 2%;
+    margin-bottom: 2%;  
+} 
